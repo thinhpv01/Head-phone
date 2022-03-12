@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./img/logo.png" alt="" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#specs" class="nav__link">specs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#case" class="nav__link">case</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">products</a>
+            </li>
+            <li class="nav__item">
+              <i class="fas fa-sun" id="change-theme"></i>
+            </li>
+            <li class="nav__close" id="nav-close">
+              <i class="fas fa-times"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- ----home---- -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div>
+            <img src="./img/home.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__data">
+            <div class="home__header">
+              <h1 class="home__title">On ear</h1>
+              <h2 class="home__subtitle">Beats 3</h2>
+            </div>
+            <div class="home__footer">
+              <h3 class="home__title-description">Overview</h3>
+              <p class="home__description">
+                Enjoy award-winning Beats sound with wireless listening freedom
+                and a sleek, streamlined design with comfortable padded
+                earphones, delivering first-rate playback.
+              </p>
+              <a href="" class="btn btn-flex">
+                <i class="fas fa-shopping-bag btn-icon"></i>
+                <span class="home__btn-text">Add to Bag</span>
+                <span class="home__price">$299</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ---sponsor---- -->
+      <section class="sponsor section">
+        <div class="sponsor__container grid container">
+          <img src="./img/sponsor1.png" alt="" class="sponsor__img" />
+          <img src="./img/sponsor2.png" alt="" class="sponsor__img" />
+          <img src="./img/sponsor3.png" alt="" class="sponsor__img" />
+          <img src="./img/sponsor4.png" alt="" class="sponsor__img" />
+        </div>
+      </section>
+      <!-- ----specs---- -->
+      <section class="specs section" id="specs">
+        <h2 class="section__title">Specs</h2>
+        <div class="specs__container container grid">
+          <div class="specs__content grid">
+            <div class="specs__data">
+              <i class="fab fa-bluetooth-b specs__icon"></i>
+              <h3 class="specs__title">Connection</h3>
+              <span class="specs__subtitle">Bluetooth v5.2</span>
+            </div>
+            <div class="specs__data">
+              <i class="fas fa-battery-three-quarters specs__icon"></i>
+              <h3 class="specs__title">Battery</h3>
+              <span class="specs__subtitle">Duration 40h</span>
+            </div>
+            <div class="specs__data">
+              <i class="fas fa-plug specs__icon"></i>
+              <h3 class="specs__title">Load</h3>
+              <span class="specs__subtitle">Fast charge 4.2-AAC</span>
+            </div>
+            <div class="specs__data">
+              <i class="fas fa-microphone specs__icon"></i>
+              <h3 class="specs__title">Microphone</h3>
+              <span class="specs__subtitle"
+                >Supports Apple Siri <br />
+                and Google</span
+              >
+            </div>
+          </div>
+          <div>
+            <img src="./img/specs.png" alt="" class="specs__img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="case section" id="case">
+        <h2 class="section__title">Case</h2>
+        <div class="case__container grid container">
+          <div>
+            <img src="./img/case.png" alt="" class="case__img" />
+          </div>
+          <div class="case__content">
+            <p class="case__text">
+              With a comfortable and adaptable case so that you can store it
+              whenever you want, and keep your durability forever.
+            </p>
+            <a href="#" class="btn btn-flex">
+              <i class="far fa-question-circle btn-icon"></i>
+              <span>More info</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="discount section">
+        <div class="discount__container container grid">
+          <div class="discount__animate">
+            <h2 class="discount__title">
+              Immerse yourself in <br />
+              your music
+            </h2>
+            <p class="discount__description">Get it now, up to 50% off.</p>
+            <a href="#" class="btn btn-flex">
+              <i class="fas fa-shopping-bag btn-icon"></i> Shop Now
+            </a>
+          </div>
+          <img src="./img/discount.png" alt="" class="discount__img" />
+        </div>
+      </section>
+
+      <section class="products section" id="products">
+        <h2 class="section__title">
+          Choose <br />
+          Your Style
+        </h2>
+        <div class="products__container grid container">
+          <div class="products__data">
+            <img src="./img/product1.png" alt="" class="products__img" />
+            <div>
+              <h3 class="products__title">Black</h3>
+              <span class="products__price">$249</span>
+            </div>
+            <a href="#" class="btn products__btn">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </div>
+          <div class="products__data">
+            <img src="./img/product2.png" alt="" class="products__img" />
+            <div>
+              <h3 class="products__title">Red Black</h3>
+              <span class="products__price">$249</span>
+            </div>
+            <a href="#" class="btn products__btn">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </div>
+          <div class="products__data">
+            <img src="./img/product3.png" alt="" class="products__img" />
+            <div>
+              <h3 class="products__title">Night Black</h3>
+              <span class="products__price">$249</span>
+            </div>
+            <a href="#" class="btn products__btn">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </div>
+          <div class="products__data">
+            <img src="./img/product4.png" alt="" class="products__img" />
+            <div>
+              <h3 class="products__title">Blue</h3>
+              <span class="products__price">$249</span>
+            </div>
+            <a href="#" class="btn products__btn">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </div>
+          <div class="products__data">
+            <img src="./img/product5.png" alt="" class="products__img" />
+            <div>
+              <h3 class="products__title">Twilight gray</h3>
+              <span class="products__price">$249</span>
+            </div>
+            <a href="#" class="btn products__btn">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__box">
+          <img src="./img/logo.png" alt="" class="footer__img" />
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__title">Products</h3>
+          <a href="#" class="footer__link">Headphones</a>
+          <a href="#" class="footer__link">Earphones</a>
+          <a href="#" class="footer__link">Earbuds</a>
+          <a href="#" class="footer__link">Accessories</a>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__title">Support</h3>
+          <a href="#" class="footer__link">Product help</a>
+          <a href="#" class="footer__link">Register</a>
+          <a href="#" class="footer__link">Updates</a>
+          <a href="#" class="footer__link">Provides</a>
+        </div>
+        <div class="footer__box">
+          <div class="footer__form">
+            <input type="email" placeholder="Email" class="footer__input" />
+            <button class="btn btn-flex">
+              <i class="far fa-paper-plane btn-icon"></i>
+              Subscribe
+            </button>
+          </div>
+          <div class="footer__socials">
+            <a href="#" class="footer__socials-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer__socials-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer__socials-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="credit">© PhamVanThinh. All right reserved</p>
+    </footer>
+    <a href="#" class="scroll__top" id="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
